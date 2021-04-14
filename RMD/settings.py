@@ -26,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = ')j++@zai-%jjd9$+496s(1zce5h8mh8x_c$un@pv@z5x_me)_&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -133,7 +133,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-STATIC_URL = 'frontend/static/'
+STATIC_URL = '/static/'
 
 # Add these new lines
 STATICFILES_DIRS = (
