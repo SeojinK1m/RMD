@@ -4,7 +4,7 @@ from django.urls import include, path
 from rest_framework import routers
 from backend import views
 from django.conf.urls.static import static
-import settings
+from django.conf import settings
 
 router = routers.DefaultRouter()
 router.register(r'schools', views.SchoolsViewset)
