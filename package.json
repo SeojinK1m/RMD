@@ -10,5 +10,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeojinK1m/RMD.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SeojinK1m/RMD/issues"
+  },
+  "homepage": "https://github.com/SeojinK1m/RMD#readme",
   "description": ""
 }

@@ -83,16 +83,6 @@ DATABASES = {
     'default': dj_database_url.config(
         default=config('DATABASE_URL')
     )
-    
-    #{
-        #'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        #'NAME': 'postgres',
-        #'USER': 'postgres',
-        #'PASSWORD': 'Ksj011012!!!',
-        #'HOST': 'localhost',
-        #'PORT': '5432',
-
-    #}
 }
 
 
