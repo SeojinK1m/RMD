@@ -1,6 +1,6 @@
-import './App.css';
-import School from './School'
-import { useState, useEffect } from 'react';
+import React from "react";
+import School from "./School"
+import { render } from "react-dom";
 
 function App() {
 
@@ -24,8 +24,8 @@ function App() {
     </div>
   );
 }
-
-export default App;
   
-const container = document.getElementById("app");
-render(<App />, container);
+  export default App;
+  
+  const container = document.getElementById("app");
+  render(<App />, container);
